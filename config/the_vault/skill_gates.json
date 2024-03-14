@@ -144,15 +144,7 @@
         "lockedBy": []
       },
       "Automatic Genius": {
-        "dependsOn": [
-          { "type": "either", "gates": [
-              { "type": "constant", "id": "Applied Energistics" },
-              { "type": "constant", "id": "Create" },
-              { "type": "constant", "id": "Mekanism" },
-              { "type": "constant", "id": "Refined Storage" }
-            ]
-          }
-        ],
+        "dependsOn": [],
         "ignoreArrow": true,
         "lockedBy": []
       },

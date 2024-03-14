@@ -315,6 +315,7 @@ craftingTable.remove(<item:botania:livingwood_twig>);
 craftingTable.remove(<item:botania:dreamwood_twig>);
 craftingTable.remove(<item:botania:twig_wand>);
 craftingTable.remove(<item:botania:dreamwood_wand>);
+craftingTable.remove(<item:botania:crafty_crate>);
 craftingTable.remove(<item:botania:mana_pool>);
 craftingTable.remove(<item:botania:runic_altar>);
 craftingTable.remove(<item:botania:manasteel_helmet>);
@@ -408,6 +409,7 @@ craftingTable.remove(<item:botania:bifrost_perm>);
 craftingTable.remove(<item:botania:fabulous_pool>);
 craftingTable.remove(<item:botania:mana_spreader>);
 craftingTable.remove(<item:botania:alchemy_catalyst>);
+craftingTable.remove(<item:botania:mana_fluxfield>);
 
 //Chunky
 craftingTable.remove(<item:chunkymcchunkface:chunk_loader>);
@@ -558,6 +560,7 @@ craftingTable.remove(<tag:items:refinedstorage:detector>);
 craftingTable.remove(<item:refinedstorage:wireless_transmitter>);
 craftingTable.remove(<item:refinedstorage:external_storage>);
 craftingTable.remove(<item:refinedstorage:speed_upgrade>);
+craftingTable.remove(<item:refinedstorage:crafting_upgrade>);
 craftingTable.remove(<item:refinedstorage:stack_upgrade>);
 craftingTable.remove(<item:refinedstorage:wireless_grid>);
 craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
@@ -851,6 +854,7 @@ craftingTable.remove(<item:create:large_water_wheel>);
 // Backpacks
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_refill_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:stonecutter_upgrade>);
+craftingTable.remove(<item:sophisticatedbackpacks:jukebox_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_tool_swapper_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:battery_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:pump_upgrade>);
@@ -980,6 +984,7 @@ JEI.hideMod("alexsmobs");
 JEI.addIngredient(<item:alexsmobs:rainbow_glass>);
 // Backpacks
 JEI.hideIngredient(<item:sophisticatedbackpacks:stonecutter_upgrade>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:jukebox_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_tool_swapper_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:battery_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:pump_upgrade>);
@@ -1082,6 +1087,7 @@ JEI.hideIngredient(<item:botania:terra_pick>);
 JEI.hideIngredient(<item:botania:terra_axe>);
 JEI.hideIngredient(<item:botania:terra_sword>);
 JEI.hideIngredient(<item:botania:mana_cookie>);
+JEI.hideIngredient(<item:botania:crafty_crate>);
 JEI.hideIngredient(<item:botania:thorn_chakram>);
 JEI.hideIngredient(<item:botania:flare_chakram>);
 JEI.hideIngredient(<item:botania:brew_vial>.withTag({brewKey: "botania:resistance" as string}));
@@ -1424,7 +1430,6 @@ JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
 JEI.hideIngredient(<item:the_vault:acceleration_chip>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
-JEI.hideIngredient(<item:the_vault:crystal_seal_speedrun>);
 JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);
 JEI.hideIngredient(<item:the_vault:hardened_wutodic_mass>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
@@ -1498,6 +1503,8 @@ JEI.hideIngredient(<item:rftoolsbase:infused_diamond>);
 JEI.hideIngredient(<item:rftoolsbase:dimensionalshard>);
 JEI.hideIngredient(<item:rftoolsbase:machine_infuser>);
 JEI.hideIngredient(<item:rftoolsbase:crafting_card>);
+JEI.hideIngredient(<item:rftoolsbase:tablet>);
+JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
 // Titanium
 JEI.hideMod("titanium");
 // Rotten Creatures
@@ -1506,9 +1513,3 @@ JEI.hideMod("rottencreatures");
 JEI.hideIngredient(<item:ispawner:spawn_egg>);
 // AE2
 JEI.hideIngredient(<item:ae2:vibration_chamber>);
-
-
-craftingTable.remove(<item:ae2wtlib:infinity_booster_card>);
-craftingTable.remove(<item:ae2wtlib:magnet_card>);
-JEI.hideIngredient(<item:ae2wtlib:infinity_booster_card>);
-JEI.hideIngredient(<item:ae2wtlib:magnet_card>);
