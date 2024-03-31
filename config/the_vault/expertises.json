@@ -180,20 +180,6 @@
         "tiers": [
           {
             "type": "divine",
-            "affinityIncrease": 0.1,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "divine",
-            "affinityIncrease": 0.2,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "divine",
             "affinityIncrease": 0.3,
             "learnPointCost": 1,
             "regretPointCost": 0,
@@ -339,20 +325,6 @@
         "id": "Jeweler",
         "name": "Jeweler",
         "tiers": [
-          {
-            "type": "jeweler",
-            "numberOfFreeCuts": 1,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "jeweler",
-            "numberOfFreeCuts": 2,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
           {
             "type": "jeweler",
             "numberOfFreeCuts": 3,
